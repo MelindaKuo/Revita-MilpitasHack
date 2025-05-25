@@ -48,7 +48,7 @@ export default function App() {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          data: [`data:image/jpeg;base64,${base64Image}`], // assuming the Space takes a single base64 image
+          data: [`data:image/jpeg;base64,${base64Image}`], 
         }),
       });
     

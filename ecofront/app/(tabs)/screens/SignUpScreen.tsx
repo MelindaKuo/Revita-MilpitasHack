@@ -116,10 +116,10 @@ const styles = StyleSheet.create({
       alignItems: 'center',
   },
   invisibleButton: {
-backgroundColor: '#ffffff', // White background
-opacity: 0, // Fully transparent
+backgroundColor: '#ffffff', 
+opacity: 0, 
 width: '60%',
-height: 40, // Match your button height
+height: 40, 
 marginTop: 10,
 justifyContent: 'center',
 alignItems: 'center',

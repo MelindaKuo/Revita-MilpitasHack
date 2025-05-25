@@ -7,7 +7,6 @@ import { GestureHandlerRootView, Swipeable } from 'react-native-gesture-handler'
 const LeaderboardScreen: React.FC = () => {
   //const [selectedTab, setSelectedTab] = useState<'global' | 'recyclable' | 'friends'>('global');
 
-  // Define the current user
   const currentUser = { rank: 5, username: 'YourName', points: 1025, avatar: require('../../assets/images/random character.png'), change: -1 };
 
   const topUsers = [
